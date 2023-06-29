@@ -55,6 +55,11 @@ nightly-x86_64-pc-windows-msvc (default)
 # Build
 `cargo build`
 
+# Build glsl2hlsl-wasm
+1.  [ 安装 wasm-pack ](https://rustwasm.github.io/wasm-pack/installer/)
+2. wasm-pack build
+3. npm run build
+
 # Usage
 `glsl2hlsl <fileToConvert>`
 

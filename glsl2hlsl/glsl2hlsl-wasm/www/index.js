@@ -1,4 +1,4 @@
-// import * as wasm from "../pkg/glsl2hlsl_wasm.js";
+import * as wasm from "glsl2hlsl-wasm";
 
 let inp = document.getElementById("in");
 let outp = document.getElementById("out");
