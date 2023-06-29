@@ -56,15 +56,7 @@
 
   <script>
     var now = new Date().getTime();
-    if (navigator.userAgent.match(/(iPhone|iPod|Android|ios|iOS|iPad|Backerry|WebOS|Symbian|Windows Phone|Phone)/i)) {
-      // 手机浏览器
-      window.location = "glsl2hlsl-wasm-publish/index.html?ts=${now}";
-    } else {
-      function load_home() {
-        document.getElementById("contentWrap").innerHTML = `<object type="text/html" data="glsl2hlsl-wasm-publish/index.html?ts=${now}" width="100%" height="100%" ></object>`;
-      }
-      load_home();
-    }
+    window.location = "glsl2hlsl-wasm-publish/index.html?ts=${now}";
   </script>
 </body>
 
